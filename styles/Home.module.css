@@ -80,7 +80,7 @@
   margin-top: 3rem;
 }
 
-.card {
+.button {
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
@@ -92,19 +92,20 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+.button:hover,
+.button:focus,
+.button:active {
   color: #0070f3;
   border-color: #0070f3;
+  cursor: pointer;
 }
 
-.card h3 {
+.button h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
-.card p {
+.button p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
